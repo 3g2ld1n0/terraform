@@ -1,0 +1,16 @@
+# criando chave ssh
+PS C:\Jornada_DevOps\Aula03> ssh-keygen -t rsa -b 2048
+# conectando no host jenkis com o ssh
+PS C:\Jornada_DevOps\Aula03> ssh -i C:\Users\adminagl\.ssh\terrraform root@137.184.103.215
+# pegar configuracao do kubectl no digitalocean e subistituir no arquivo de config local
+C:\Users\adminagl\.kube\config
+# instalando o terraform e colocando no path
+# pegar configuracoes para o terraform
+registry.terraform.io
+# iniciando o projeto terraform, isso faz baixar os providers para usar no projeto
+PS C:\Jornada_DevOps\Aula03\terraform> terraform init
+# comando para formatar arquivo
+PS C:\Jornada_DevOps\Aula03\terraform> terraform fmt
+# exibir plano de execucao
+PS C:\Jornada_DevOps\Aula03\terraform> terraform plan
+# dop_v1_8453ae53256259ee193773836a0036fb1f2cb13f7582f1199665531d33f04df1
